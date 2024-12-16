@@ -11,9 +11,6 @@ import { Metadata } from 'next';
 import { ProviderWrapper } from '@/components/helpers/ProviderWrapper';
 import { LogQueriesToggle } from './_components/LogQueriesToggle';
 import Link from 'next/link';
-import { HztlLogo } from '@/components/svg/horizontal-logo';
-import { GitHubLogoIcon } from '@radix-ui/react-icons';
-import { Button } from '@/components/ui/button';
 
 const inter = Inter({ subsets: ['latin'] });
 
