@@ -24,7 +24,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 export const metadata: Metadata = {
-  title: 'Horizontal Experience Edge Browser',
+  title: 'Experience Edge Browser',
   icons: '/favicon.png',
   description:
     'An interactive UI for browsing data on Sitecore Experience Edge.  Created by Horizontal Digital.',
@@ -42,22 +42,13 @@ export default function RootLayout({ children }: React.PropsWithChildren) {
                 <MainNav className="mx-6" />
               </div>
               <div className="ml-auto flex items-center space-x-4">
-                <Link href={'https://horizontaldigital.com'} className="w-16 mr-2">
-                  <HztlLogo />
-                </Link>
-                <span> XE Browser </span>
+                <span> EE Browser </span>
               </div>
 
               <div className="ml-auto flex items-center space-x-4">
                 <LogQueriesToggle />
 
                 <SystemLangageSwitcher />
-
-                <Button asChild variant={'ghost'}>
-                  <Link href={'https://github.com/horizontalintegration/xe-browser'}>
-                    <GitHubLogoIcon />
-                  </Link>
-                </Button>
 
                 <DarkModeToggle />
               </div>
@@ -91,14 +82,6 @@ export default function RootLayout({ children }: React.PropsWithChildren) {
                     {/* <span>
                       {' '}
                       Source code is available on{' '}
-                      <Link
-                        className="underline"
-                        href="https://github.com/horizontalintegration/xe-browser"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        GitHub
-                      </Link>
                       .
                     </span> */}
                   </p>
