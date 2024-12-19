@@ -69,18 +69,7 @@ export default function RootLayout({ children }: React.PropsWithChildren) {
               <div className={cn('sm:flex', 'sm:flex-wrap', 'pr-8', 'lg:pr-0')}>
                 <div className="w-full">
                   <p className={cn('text-sm', 'my-0')}>
-                    <span>
-                      Created by{' '}
-                      <Link className="underline" href={'https://horizontaldigital.com'}>
-                        Horizontal Digital
-                      </Link>
-                      .
-                    </span>
-                    {/* <span>
-                      {' '}
-                      Source code is available on{' '}
-                      .
-                    </span> */}
+                    &nbps;
                   </p>
                 </div>
               </div>
